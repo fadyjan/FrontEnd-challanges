@@ -1,0 +1,161 @@
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+
+    background-color: hsl(230, 17%, 14%);
+}
+
+
+.mainbar{
+    width: 1253px;
+    height: 91px;
+    margin-left: 342px;
+    margin-top: 70px;
+}
+
+.secondrow{
+  margin-top: 3cm;
+  width: 300px;
+  height: 250px;
+
+}
+
+#title{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 700;
+    font-size: x-large;
+    position:absolute;
+    left: 15%;
+    color: white;
+}
+
+#togglebutton{
+    margin-top: 30px;
+    position:absolute;
+    left: 75%;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  #Followers{
+
+    padding-top: 50px;
+    position: absolute;
+    left: 20%;
+    color: hsl(228, 34%, 66%);
+  }
+
+  #facebook{
+    width: 300px;
+    text-align: center;
+    position: absolute;
+    left: 15%;
+    color: white;
+    height: 200px;
+    background-color:hsl(228, 28%, 20%) ;
+
+  }
+
+  #twitter{
+
+
+    width: 300px;
+    text-align: center;
+    position: absolute;
+    left: 32%;
+    color: white;
+    height: 200px;
+    background-color:hsl(228, 28%, 20%) ;
+    
+
+  }
+
+
+  #instagram{
+    width: 300px;
+    text-align: center;
+    position: absolute;
+    left:49% ;
+    color: white;
+    height: 200px;
+    background-color:hsl(228, 28%, 20%) ;
+    
+
+  }
+  #pintrest{
+
+    width: 300px;
+    text-align: center;
+    position: absolute;
+    left: 66%;
+    color: white;
+    height: 200px;
+    background-color:hsl(228, 28%, 20%) ;
+
+
+  }
