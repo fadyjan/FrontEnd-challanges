@@ -198,6 +198,7 @@ input:checked + .slider:before {
   }
 
   .btn{
+    color: white;
     border-radius: 10px;
     border-width: 0ch;
     background-image:  linear-gradient(50deg,hsl(236, 72%, 79%) , hsl(237, 63%, 64%));
